@@ -5,6 +5,6 @@ WORKDIR /usr/src/meme
 
 RUN npm install
 
-COPY . /usr/src/meme
+COPY ./src /usr/src/meme
 
 CMD ["node", "index.js"]
